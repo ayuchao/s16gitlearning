@@ -6,4 +6,7 @@ def happy(request):
 
 def happy2(reuqest):
     return HttpResponse("曾经我被人打趴下了,然后我发现躺着真舒服")
+
+def wupeiqi(request):
+    reutrn HttpResponse("我是吴佩琪,老男孩的银角大王")
 # Create your views here.
