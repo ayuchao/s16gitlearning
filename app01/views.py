@@ -16,5 +16,8 @@ def alex(request):
 
 def dev(request):
     return HttpResponse("dev开发的代码在这里")
+
+def development(request):
+    return HtppResponse("万事开头难,中间也难,结尾也难")
 # Create your views here.
 print('测试分支冲突的代码')
