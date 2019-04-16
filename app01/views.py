@@ -9,4 +9,8 @@ def happy2(reuqest):
 
 def wupeiqi(request):
     reutrn HttpResponse("我是吴佩琪,老男孩的银角大王")
+
+
+def alex(request):
+    return HttpResponse("你就打瞌睡吧,模拟面试的时候,看你尴尬不")
 # Create your views here.
