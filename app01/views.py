@@ -14,3 +14,4 @@ def wupeiqi(request):
 def alex(request):
     return HttpResponse("你就打瞌睡吧,模拟面试的时候,看你尴尬不")
 # Create your views here.
+print('测试分支冲突的代码')
